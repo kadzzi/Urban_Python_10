@@ -42,7 +42,7 @@ class Cafe:
     def serve_customer(self, customer):
         current_tables = [table.is_busy for table in self.tables]
         free_table_i = current_tables.index(False)
-        print(f'Посетитель номер {customer.number} сел за стол {free_table_i + 1}')
+        print(f'Посетитель номер {customer.number} сел за стол {self.tables[free_table_i].number}')
         self.tables[free_table_i].is_busy = True
         sleep(5)
         print(f'Посетитель номер {customer.number} покушал и ушёл.')
