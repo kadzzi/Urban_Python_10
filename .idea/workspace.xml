@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df84ef6c-32db-4e0a-bb10-bcc010c92ca7" name="Changes" comment="added module_10_4.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="df84ef6c-32db-4e0a-bb10-bcc010c92ca7" name="Changes" comment="edited module_10_4.py table.indexes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722362656475</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edited module_10_4.py table.indexes">
+      <option name="closed" value="true" />
+      <created>1722363501113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722363501113</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +125,7 @@
     <MESSAGE value="module_10_2.py text edited" />
     <MESSAGE value="added module_10_3.py" />
     <MESSAGE value="added module_10_4.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module_10_4.py" />
+    <MESSAGE value="edited module_10_4.py table.indexes" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited module_10_4.py table.indexes" />
   </component>
 </project>
