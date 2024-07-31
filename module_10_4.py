@@ -13,11 +13,11 @@ class Customer(Thread):
     def __init__(self, number):
         super().__init__()
         self.number = number
-        self.table_no = None
 
     def run(self):
         print(f'Посетитель номер {self.number} сел за стол {self.table_no}')
         sleep(5)
+        del self.table_no
         print(f'Посетитель номер {self.number} покушал и ушёл.')
 
 
@@ -51,10 +51,8 @@ class Cafe:
         free_table_i = current_tables.index(False)
         self.tables[free_table_i].is_busy = True
         customer.table_no = self.tables[free_table_i].number
-        # print(f'Посетитель номер {customer.number} сел за стол {self.tables[free_table_i].number}')
         customer.start()
         customer.join()
-        # print(f'Посетитель номер {customer.number} покушал и ушёл.')
         self.tables[free_table_i].is_busy = False
         if not self.queue.empty():
             self.reception(self.queue.get())
