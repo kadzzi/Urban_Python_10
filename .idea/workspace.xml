@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df84ef6c-32db-4e0a-bb10-bcc010c92ca7" name="Changes" comment="edited module_10_4.py customer as thread">
+    <list default="true" id="df84ef6c-32db-4e0a-bb10-bcc010c92ca7" name="Changes" comment="edited module_10_4.py customer as thread 2">
+      <change afterPath="$PROJECT_DIR$/module_10_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_10_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_4_alt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.module_10_1.executor": "Run",
+    "Python.module_10_2.executor": "Run",
+    "Python.module_10_3.executor": "Run",
+    "Python.module_10_4.executor": "Debug",
+    "Python.module_10_4_alt.executor": "Run",
+    "Python.module_10_5.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -127,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722420113479</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edited module_10_4.py customer as thread 2">
+      <option name="closed" value="true" />
+      <created>1722420943878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722420943878</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +147,7 @@
     <MESSAGE value="added module_10_4.py" />
     <MESSAGE value="edited module_10_4.py table.indexes" />
     <MESSAGE value="edited module_10_4.py customer as thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited module_10_4.py customer as thread" />
+    <MESSAGE value="edited module_10_4.py customer as thread 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited module_10_4.py customer as thread 2" />
   </component>
 </project>
