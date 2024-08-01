@@ -41,9 +41,9 @@ class WarehouseManager:
 
         lock.release()
 
-    def run(self, requests):
+    def run(self, requests_):
         current_processes = []
-        for request in requests:
+        for request in requests_:
             current_processes.append(Process(target=self.process_request, args=(request,)))
             current_processes[-1].start()
         for process in current_processes:
@@ -51,14 +51,11 @@ class WarehouseManager:
         with open('shared_data.pkl', 'rb') as file:
             self.data = pickle.load(file)
 
-
-
         # from multiprocessing import Pool
         # with Pool(processes=len(requests)) as p:
         #     p.map(self.process_request, requests)
         # with open('shared_data.pkl', 'rb') as file:
         #     self.data = pickle.load(file)
-
 
 
 if __name__ == "__main__":
