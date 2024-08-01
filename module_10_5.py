@@ -1,7 +1,10 @@
+from multiprocessing import Manager
+
+
 class WarehouseManager:
     def __init__(self):
         if __name__ == "__main__":
-            self.data = {}
+            self.data = Manager().dict()
 
     def process_request(self, request):
         if request[0] in self.data:
@@ -14,7 +17,7 @@ class WarehouseManager:
                     elif self.data[request[0]] == request[2]:
                         self.data[request[0]] -= request[2]
                         print(f'Товар {request[0]} закончился!')
-                        #del self.data[request[0]]
+                        # del self.data[request[0]]
                     else:
                         self.data[request[0]] -= request[2]
         else:
@@ -24,21 +27,21 @@ class WarehouseManager:
                 case "shipment":
                     print(f'Товара {request[0]} нет в наличии!')
 
-    def run(self, requests):
-        # from multiprocessing import Process
-        # current_processes = []
-        # for request in requests:
-        #     current_processes.append(Process(target=self.process_request, args=(request,)))
-        #     current_processes[-1].start()
-        # for process in current_processes:
-        #     process.join()
+    def run(self, requests_):
+        from multiprocessing import Process
+        current_processes = []
+        for request in requests_:
+            current_processes.append(Process(target=self.process_request, args=(request,)))
+            current_processes[-1].start()
+        for process in current_processes:
+            process.join()
 
         # from multiprocessing import Pool
         # with Pool(processes=len(requests)) as p:
         #     p.map(self.process_request, requests)
 
-        for request_ in requests:
-            self.process_request(request_)
+        # for request_ in requests:
+        #     self.process_request(request_)
 
 
 if __name__ == "__main__":

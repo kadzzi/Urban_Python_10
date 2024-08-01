@@ -1,16 +1,16 @@
 from os import path
-from multiprocessing import Process, Lock
+from multiprocessing import Process, Lock, Manager
 import pickle
 
 
-lock = Lock()
+#lock = Lock()
 
 
 class WarehouseManager:
 
     def process_request(self, request):
 
-        lock.acquire()
+        # lock.acquire()
 
         if path.isfile('shared_data.pkl'):
             with open('shared_data.pkl', 'rb') as file:
@@ -39,7 +39,7 @@ class WarehouseManager:
         with open('shared_data.pkl', 'wb') as file:
             pickle.dump(self.data, file)
 
-        lock.release()
+        # lock.release()
 
     def run(self, requests_):
         current_processes = []
