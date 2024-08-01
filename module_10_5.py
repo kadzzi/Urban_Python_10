@@ -1,4 +1,4 @@
-from multiprocessing import Manager
+from multiprocessing import Process, Manager
 
 
 class WarehouseManager:
@@ -28,7 +28,6 @@ class WarehouseManager:
                     print(f'Товара {request[0]} нет в наличии!')
 
     def run(self, requests_):
-        from multiprocessing import Process
         current_processes = []
         for request in requests_:
             current_processes.append(Process(target=self.process_request, args=(request,)))
