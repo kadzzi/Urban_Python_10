@@ -52,8 +52,8 @@ class WarehouseManager:
             self.data = pickle.load(file)
 
         # from multiprocessing import Pool
-        # with Pool(processes=len(requests)) as p:
-        #     p.map(self.process_request, requests)
+        # with Pool(processes=len(requests_)) as p:
+        #     p.map(self.process_request, requests_)
         # with open('shared_data.pkl', 'rb') as file:
         #     self.data = pickle.load(file)
 

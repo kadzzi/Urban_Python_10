@@ -36,10 +36,10 @@ class WarehouseManager:
             process.join()
 
         # from multiprocessing import Pool
-        # with Pool(processes=len(requests)) as p:
-        #     p.map(self.process_request, requests)
+        # with Pool(processes=len(requests_)) as p:
+        #     p.map(self.process_request, requests_)
 
-        # for request_ in requests:
+        # for request_ in requests_:
         #     self.process_request(request_)
 
 
