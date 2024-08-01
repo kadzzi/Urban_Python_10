@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df84ef6c-32db-4e0a-bb10-bcc010c92ca7" name="Changes" comment="added module_10_5_file.py">
+    <list default="true" id="df84ef6c-32db-4e0a-bb10-bcc010c92ca7" name="Changes" comment="edited module_10_5_file.py PEP8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_10_5_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_5_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722508351744</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="edited module_10_5_file.py PEP8">
+      <option name="closed" value="true" />
+      <created>1722509792072</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722509792072</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +187,7 @@
     <MESSAGE value="edited module_10_4.py customer as thread 2" />
     <MESSAGE value="added module_10_5.py without processes" />
     <MESSAGE value="added module_10_5_file.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module_10_5_file.py" />
+    <MESSAGE value="edited module_10_5_file.py PEP8" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited module_10_5_file.py PEP8" />
   </component>
 </project>

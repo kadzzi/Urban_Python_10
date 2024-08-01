@@ -7,8 +7,6 @@ lock = Lock()
 
 
 class WarehouseManager:
-    def __init__(self):
-        self.data = {}
 
     def process_request(self, request):
 
@@ -17,6 +15,8 @@ class WarehouseManager:
         if path.isfile('shared_data.pkl'):
             with open('shared_data.pkl', 'rb') as file:
                 self.data = pickle.load(file)
+        else:
+            self.data = {}
 
         if request[0] in self.data.keys():
             match request[1]:
